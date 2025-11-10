@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>⚡ Cash Bonus Generator | Claim Your Instant $750 Bonus</title>
+    <title>⚡ Amazon Bonus Generator | Claim Your Instant $750 Bonus</title>
     <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Configure Tailwind to use Inter font and custom colors -->
@@ -13,10 +13,10 @@
             theme: {
                 extend: {
                     colors: {
-                        cashgreen: '#00D156',
-                        cashdark: '#00B14A',
-                        cashaccent: '#2C3E50', /* Dark blue/black for contrast */
-                        cashbg: '#F8F8F8',
+                        Amazongreen: '#00D156',
+                        Amazondark: '#00B14A',
+                        Amazonaccent: '#2C3E50', /* Dark blue/black for contrast */
+                        Amazonbg: '#F8F8F8',
                     },
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
@@ -87,21 +87,21 @@
             
             <!-- Headline -->
             <h1 class="text-5xl md:text-7xl font-black text-white leading-tight mb-4">
-                UNLOCK YOUR <span class="text-yellow-300">INSTANT</span> CASH BONUS
+                UNLOCK YOUR <span class="text-yellow-300">INSTANT</span> Amazon BONUS
             </h1>
             
             <!-- Subhead -->
             <p class="text-xl md:text-2xl text-gray-100 font-medium mb-10 max-w-3xl">
-                Generate a unique, verified code now and claim your entry for a **$750 Cash Card** giveaway!
+                Generate a unique, verified code now and claim your entry for a **$750 Amazon Card** giveaway!
             </p>
             
             <!-- Call to Action Card Visual (Desktop/Tablet) -->
             <div class="hidden md:flex items-center justify-center space-x-8 mb-10">
                 <img 
-                    src="https://placehold.co/200x120/00D156/ffffff?text=CASH+CARD" 
-                    alt="Cash Card Visual"
+                    src="https://placehold.co/200x120/00D156/ffffff?text=Amazon+CARD" 
+                    alt="Amazon Card Visual"
                     class="rounded-xl card-shadow transform rotate-12"
-                    onerror="this.onerror=null;this.src='https://placehold.co/200x120/00D156/ffffff?text=CASH+CARD';"
+                    onerror="this.onerror=null;this.src='https://placehold.co/200x120/00D156/ffffff?text=Amazon+CARD';"
                 >
                  <img 
                     src="https://placehold.co/150x250/34D399/064E40?text=PHONE+%0ACLAIM" 
@@ -112,7 +112,7 @@
             </div>
 
             <!-- Primary Action Button (Leads to Generator) -->
-            <a href="#generatorSection" class="w-full max-w-md px-12 py-5 text-2xl font-black rounded-full text-cashaccent bg-yellow-300 hover:bg-yellow-400 claim-button shadow-2xl transition duration-300">
+            <a href="#generatorSection" class="w-full max-w-md px-12 py-5 text-2xl font-black rounded-full text-Amazonaccent bg-yellow-300 hover:bg-yellow-400 claim-button shadow-2xl transition duration-300">
                 START GENERATOR! 🚀
             </a>
 
@@ -122,21 +122,21 @@
     <!-- Generator Section - ID for Scroll Link -->
     <main class="container mx-auto px-4 py-12 md:py-20 flex-grow" id="generatorSection">
         <!-- UPDATED: Changed bg-white to bg-green-50 for subtle color -->
-        <div class="bg-green-50 p-6 md:p-10 rounded-2xl shadow-3xl max-w-2xl mx-auto text-center border-t-8 border-cashaccent">
+        <div class="bg-green-50 p-6 md:p-10 rounded-2xl shadow-3xl max-w-2xl mx-auto text-center border-t-8 border-Amazonaccent">
             
-            <h2 class="text-4xl font-extrabold mb-6 text-cashaccent" id="statusHeader">
+            <h2 class="text-4xl font-extrabold mb-6 text-Amazonaccent" id="statusHeader">
                 Step 1: Click 'Generate' to Verify!
             </h2>
 
             <!-- Simulated Gift Card Display -->
-            <div class="relative bg-gray-100 p-6 md:p-8 rounded-xl border-2 border-cashgreen transition duration-500 ease-in-out">
-                <p class="text-xl text-cashaccent font-semibold mb-4">Your Unique Giveaway Code:</p>
-                <div class="bg-cashaccent p-4 rounded-lg font-mono text-xl md:text-4xl font-extrabold text-cashgreen tracking-wider shadow-inner">
+            <div class="relative bg-gray-100 p-6 md:p-8 rounded-xl border-2 border-Amazongreen transition duration-500 ease-in-out">
+                <p class="text-xl text-Amazonaccent font-semibold mb-4">Your Unique Giveaway Code:</p>
+                <div class="bg-Amazonaccent p-4 rounded-lg font-mono text-xl md:text-4xl font-extrabold text-Amazongreen tracking-wider shadow-inner">
                     <span id="generatedCode">XXXX-XXXX-XXXX-XXXX</span>
                 </div>
                 
                 <p class="mt-4 text-base text-red-600 font-bold" id="disclaimer" style="display:none;">
-                    STATUS: Code <span class="text-cashgreen">VERIFIED</span>! Click **CLAIM NOW** to secure your prize before the timer expires!
+                    STATUS: Code <span class="text-Amazongreen">VERIFIED</span>! Click **CLAIM NOW** to secure your prize before the timer expires!
                 </p>
             </div>
 
@@ -146,7 +146,7 @@
                 <button 
                     id="generateButton" 
                     onclick="generateCard()" 
-                    class="w-full px-8 py-4 text-2xl font-black rounded-xl text-white bg-cashgreen hover:bg-cashdark claim-button transition duration-300 shadow-lg"
+                    class="w-full px-8 py-4 text-2xl font-black rounded-xl text-white bg-Amazongreen hover:bg-Amazondark claim-button transition duration-300 shadow-lg"
                 >
                     GENERATE FREE CODE NOW!
                 </button>
@@ -163,7 +163,7 @@
                 </a>
                 
                 <!-- Placeholder for processing messages -->
-                <p id="processingMessage" class="text-2xl font-bold text-cashdark hidden">
+                <p id="processingMessage" class="text-2xl font-bold text-Amazondark hidden">
                     Processing your secure connection<span class="dots"></span>
                 </p>
 
@@ -176,28 +176,28 @@
     <!-- UPDATED: Replaced bg-white with a light gradient -->
     <section class="w-full py-16 bg-gradient-to-r from-green-50 to-white">
         <div class="container mx-auto px-4 text-center">
-            <h2 class="text-4xl font-bold text-cashaccent mb-12">How It Works in 3 Quick Steps</h2>
+            <h2 class="text-4xl font-bold text-Amazonaccent mb-12">How It Works in 3 Quick Steps</h2>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 
                 <!-- Step 1 (Inner cards remain white for contrast) -->
                 <div class="p-6 rounded-xl border-2 border-gray-100 shadow-md bg-white">
                     <div class="text-5xl mb-4">✅</div>
-                    <h3 class="text-xl font-bold text-cashgreen mb-3">1. Activate Generator</h3>
+                    <h3 class="text-xl font-bold text-Amazongreen mb-3">1. Activate Generator</h3>
                     <p class="text-gray-600">Click the 'Generate' button above to start the server-side code verification process.</p>
                 </div>
 
                 <!-- Step 2 -->
                 <div class="p-6 rounded-xl border-2 border-gray-100 shadow-md bg-white">
                     <div class="text-5xl mb-4">🔑</div>
-                    <h3 class="text-xl font-bold text-cashgreen mb-3">2. Receive Your Code</h3>
-                    <p class="text-gray-600">Watch the generator find and secure a unique, active CashBONUS code just for you.</p>
+                    <h3 class="text-xl font-bold text-Amazongreen mb-3">2. Receive Your Code</h3>
+                    <p class="text-gray-600">Watch the generator find and secure a unique, active AmazonBONUS code just for you.</p>
                 </div>
 
                 <!-- Step 3 -->
                 <div class="p-6 rounded-xl border-2 border-gray-100 shadow-md bg-white">
                     <div class="text-5xl mb-4">🚀</div>
-                    <h3 class="text-xl font-bold text-cashgreen mb-3">3. Finalize & Claim!</h3>
+                    <h3 class="text-xl font-bold text-Amazongreen mb-3">3. Finalize & Claim!</h3>
                     <p class="text-gray-600">Immediately click the red 'CLAIM NOW' button to submit your final entry and secure the prize.</p>
                 </div>
             </div>
@@ -207,48 +207,48 @@
     <!-- Social Proof/Testimonials Section (UPDATED: Now uses a subtle green gradient background) -->
     <section class="w-full py-16 bg-gradient-to-t from-green-100 to-white">
         <div class="container mx-auto px-4 text-center">
-            <h2 class="text-4xl font-bold text-cashaccent mb-12">Don't Miss Out! Codes are Limited.</h2>
+            <h2 class="text-4xl font-bold text-Amazonaccent mb-12">Don't Miss Out! Codes are Limited.</h2>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
                 
                 <!-- Testimonial 1 - Sarah P. (Texas) -->
-                <div class="testimonial-card p-6 rounded-xl shadow-lg border-b-4 border-cashgreen">
+                <div class="testimonial-card p-6 rounded-xl shadow-lg border-b-4 border-Amazongreen">
                     <div class="flex items-center mb-4 text-left">
                         <img 
                             src="https://placehold.co/50x50/34D399/ffffff?text=S" 
                             alt="User Avatar Sarah" 
-                            class="rounded-full mr-4 border-2 border-cashgreen"
+                            class="rounded-full mr-4 border-2 border-Amazongreen"
                             onerror="this.onerror=null;this.src='https://placehold.co/50x50/34D399/ffffff?text=S';"
                         >
-                        <p class="font-semibold text-cashaccent">Sarah P. (Texas)</p>
+                        <p class="font-semibold text-Amazonaccent">Sarah P. (Texas)</p>
                     </div>
                     <p class="text-gray-700 italic text-left">"I was skeptical, but the code generated instantly! The process was fast and the site looks legit. Waiting on my prize!"</p>
                 </div>
 
                 <!-- Testimonial 2 - Michael J. (Florida) -->
-                <div class="testimonial-card p-6 rounded-xl shadow-lg border-b-4 border-cashgreen">
+                <div class="testimonial-card p-6 rounded-xl shadow-lg border-b-4 border-Amazongreen">
                     <div class="flex items-center mb-4 text-left">
                         <img 
                             src="https://placehold.co/50x50/FCAE1E/ffffff?text=M" 
                             alt="User Avatar Michael" 
-                            class="rounded-full mr-4 border-2 border-cashgreen"
+                            class="rounded-full mr-4 border-2 border-Amazongreen"
                             onerror="this.onerror=null;this.src='https://placehold.co/50x50/FCAE1E/ffffff?text=M';"
                         >
-                        <p class="font-semibold text-cashaccent">Michael J. (Florida)</p>
+                        <p class="font-semibold text-Amazonaccent">Michael J. (Florida)</p>
                     </div>
                     <p class="text-gray-700 italic text-left">"Super easy to use, just one click and the code was there. Highly recommend trying this free giveaway!"</p>
                 </div>
 
                 <!-- Testimonial 3 - Alex V. (New York) -->
-                <div class="testimonial-card p-6 rounded-xl shadow-lg border-b-4 border-cashgreen">
+                <div class="testimonial-card p-6 rounded-xl shadow-lg border-b-4 border-Amazongreen">
                     <div class="flex items-center mb-4 text-left">
                         <img 
                             src="https://placehold.co/50x50/2C3E50/ffffff?text=A" 
                             alt="User Avatar Alex" 
-                            class="rounded-full mr-4 border-2 border-cashgreen"
+                            class="rounded-full mr-4 border-2 border-Amazongreen"
                             onerror="this.onerror=null;this.src='https://placehold.co/50x50/2C3E50/ffffff?text=A';"
                         >
-                        <p class="font-semibold text-cashaccent">Alex V. (New York)</p>
+                        <p class="font-semibold text-Amazonaccent">Alex V. (New York)</p>
                     </div>
                     <p class="text-gray-700 italic text-left">"The generator felt realistic and the final claim button was impossible to miss. Great promotional giveaway!"</p>
                 </div>
@@ -257,10 +257,10 @@
     </section>
     
     <!-- Footer for trust/legal purposes -->
-    <footer class="w-full bg-cashaccent text-white p-6 mt-auto">
+    <footer class="w-full bg-Amazonaccent text-white p-6 mt-auto">
         <div class="container mx-auto text-center text-sm">
             <p class="mb-2">Disclaimer: This is a promotional giveaway and not affiliated with any payment processors.</p>
-            <p>&copy; 2025 CashBONUS Promo. All rights reserved.</p>
+            <p>&copy; 2025 AmazonBONUS Promo. All rights reserved.</p>
         </div>
     </footer>
 
@@ -289,13 +289,13 @@
 
             // 1. Disable the button and start processing
             generateButton.disabled = true;
-            generateButton.classList.remove('bg-cashgreen', 'hover:bg-cashdark');
+            generateButton.classList.remove('bg-Amazongreen', 'hover:bg-Amazondark');
             generateButton.classList.add('bg-gray-400', 'cursor-not-allowed');
             generateButton.textContent = 'GENERATING... PLEASE WAIT';
             
             statusHeader.textContent = 'Verifying and Securing your Code...';
-            statusHeader.classList.remove('text-cashaccent');
-            statusHeader.classList.add('text-cashdark');
+            statusHeader.classList.remove('text-Amazonaccent');
+            statusHeader.classList.add('text-Amazondark');
 
             processingMessage.classList.remove('hidden');
             generatedCode.textContent = 'CONNECTING TO SERVER...';
@@ -321,7 +321,7 @@
                 claimButton.classList.remove('hidden'); // Show the claim button
                 disclaimer.style.display = 'block';
 
-                statusHeader.classList.remove('text-cashdark');
+                statusHeader.classList.remove('text-Amazondark');
                 statusHeader.classList.add('text-red-600', 'animate-pulse'); // Use red for urgency
                 statusHeader.textContent = '🚨 CODE VERIFIED! CLICK CLAIM NOW!';
                 
@@ -335,3 +335,4 @@
     </script>
 </body>
 </html>
+
